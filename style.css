@@ -103,6 +103,10 @@ button {
   align-items: center;
 }
 
+.icon_gap {
+  margin-left: 1rem;
+}
+
 .cards_grid .icon {
   font-size: 2rem;
 }
