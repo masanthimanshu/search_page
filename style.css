@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+
+body {
+  background-color: #1c1b1e;
+  color: white;
+}
+
+input {
+  outline: inherit;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.main_sec {
+  width: 50vw;
+  margin: 5rem auto;
+}
+
+.doodle_box {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.doodle_box img {
+  width: 80%;
+}
+
+.grey_box {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.input_field {
+  display: flex;
+}
+
+.input_box {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 0 10px 10px 0;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  border: 0;
+}
+
+.input_icon {
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 10px 0 0 10px;
+  padding: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.input_icon img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.input_btn {
+  background-color: rgb(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  width: 2.5rem;
+  height: 2rem;
+}
+
+.input_btn p {
+  font-size: 1rem;
+}
+
+.cards_grid {
+  gap: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.links_box {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.cards_grid .icon {
+  font-size: 2rem;
+}
